@@ -46,14 +46,14 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 You can run this test framework in Docker for full environment isolation and portability.  
 Below are instructions for running with and without test report generation.
 
-#### 2.2.1. Build the Docker Image
+2.2.1. **Build the Docker Image**
 
 From your project root, run:
 ```
 docker build -t translation-api-test-framework .
 ```
 
-#### 2.2.2. Run Tests in Docker
+2.2.2. **Run Tests in Docker**
 
   ```
   docker run --rm translation-api-test-framework
